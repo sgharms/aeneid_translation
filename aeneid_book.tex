@@ -1,0 +1,76 @@
+%
+%  untitled
+%
+%  Created by Steven Harms on 2009-02-03.
+%  Copyright (c) 2009 Steven G. Harms. All rights reserved.
+%
+\documentclass[]{book}
+
+% Use utf-8 encoding for foreign characters
+\usepackage[utf8]{inputenc}
+
+% Setup for fullpage use
+\usepackage{fullpage}
+
+% Uncomment some of the following if you use the features
+%
+% Running Headers and footers
+%\usepackage{fancyhdr}
+
+% Multipart figures
+%\usepackage{subfigure}
+
+% More symbols
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+%\usepackage{latexsym}
+
+% Surround parts of graphics with box
+\usepackage{boxedminipage}
+
+% Package for including code in the document
+\usepackage{listings}
+
+% If you want to generate a toc for each chapter (use with book)
+\usepackage{minitoc}
+
+% This is now the recommended way for checking for PDFLaTeX:
+\usepackage{ifpdf}
+
+\usepackage{setspace}
+\usepackage{ulem}
+\usepackage{framed}
+\usepackage[en]{metre}
+\usepackage{latinpoetry}
+
+
+\ifpdf
+\usepackage[pdftex]{graphicx}
+\else
+\usepackage{graphicx}
+\fi
+\title{Vergil's {\AE}neid}
+\author{ Translated By:  Steven G. Harms }
+
+\date{2009-02-03}
+
+\begin{document}
+\Elevatio{2}
+
+\ifpdf
+\DeclareGraphicsExtensions{.pdf, .jpg, .tif}
+\else
+\DeclareGraphicsExtensions{.eps, .jpg}
+\fi
+
+\maketitle
+
+\tableofcontents
+
+\chapter{Chapter 1}
+\input{aeneid_1_1-33}
+\input{aeneid_1_34-49}
+\input{aeneid_1_50-88}
+\input{aeneid_1_89-124}
+
+\end{document}
