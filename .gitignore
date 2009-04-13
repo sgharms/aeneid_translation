@@ -1,3 +1,5 @@
+.gitignore
+*.bak
 *.aux
 *.log
 *.maf
