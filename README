@@ -1,0 +1,44 @@
+INTRODUCTION
+============
+
+In spring 2009 I took Latin IV at The University of Texas at Austin which
+focused on the Æneid. These are the documents that I produced in the course of
+that study.
+
+
+CONTENTS
+========
+
+* extra_credit:  I had an assignment to comprehensively pick apart 15 lines of text.
+* vocab_supplements:  text files usable by iFlipr that can be used to help you get a handle of Æneid vocabulary quickly
+* README:  This file
+
+.TEX FILES
+==========
+
+Source files are written in custom formatted TeX.
+
+Writing these may look complicated, but you should take advantage of my
+latintools project (http://github.com/sgharms/latintools/tree). With Textmate,
+these make TM a lean, mean, Latin text editing machine and make it easy to
+produce TeX files of this form.
+
+aeneid_book.tex is the big mamma-jamma. pdflatex it and it will use the LaTeX
+directive "include" to slurp in all the other TeX files. After all the
+processing is done, you should be left with a aeneid_book.pdf.
+
+Alternatively, open the directory in textmate, open aeneid_book.tex, and use
+command-R to build it and launch a PDF viewer.
+
+PERSONAL STATEMENT / ACADEMIC DISHONESTY
+=========================================
+
+I am certainly not the world's best Latin translator. My translations should
+not be stolen wholesale and used for homework. Odds are, if you do that, you
+will inherit all my errors. Please use this as a guide, as a tool, and, where
+possible, help me refine these. But really, wholesale ripoff will probably
+hurt you.
+
+You probably also signed something that said you wouldn't cheat. Be excellent
+and live up to your promises, what would the pious Æeneas make of cheating?
+
